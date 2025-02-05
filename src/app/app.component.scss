@@ -1,0 +1,17 @@
+mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+button {
+  margin-left: 16px; /* Add some space between buttons */
+}
+
+mat-toolbar img {
+  margin-right: 10px; /* Space between the logo and the title */
+}
