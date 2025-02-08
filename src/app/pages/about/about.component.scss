@@ -1,6 +1,39 @@
-:host {
+/* About Page Styles */
+mat-container {
+  padding: 20px;
+}
+
+.card-container {
   display: flex;
-  flex-direction: column;
-  gap: 16px;
-  padding: 24px;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0 15px;
+}
+
+.card-container app-card {
+  width: 100%;
+}
+
+.info-box-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2em;
+}
+
+mat-icon {
+  color: #ff8c00;
+}
+
+@media (max-width: 600px) {
+  .info-box-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }

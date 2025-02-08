@@ -1,11 +1,45 @@
-<h2>About Us</h2>
+<div class="about-page">
+  <div class="info-box-container">
+    <div class="info-box">
+      <mat-icon>rocket_launch</mat-icon>
+      <span>Exploration Beyond Earth</span>
+    </div>
+    <div class="info-box">
+      <mat-icon>pets</mat-icon>
+      <span>The Dog Astronauts Team</span>
+    </div>
+    <div class="info-box">
+      <mat-icon>public</mat-icon>
+      <span>Global Collaboration</span>
+    </div>
+  </div>
 
-<app-card
-  title="About Card"
-  content="This is another instance of the card component"
-></app-card>
+  <div class="card-container">
+    <app-card
+      [title]="'About the Dog Astronauts Mission'"
+      [content]="
+        'Welcome to the Dog Astronauts Mission! This project was created to celebrate the brave dogs who venture into space, helping us explore new frontiers and discover the unknown. All of the images and descriptions of these incredible dog astronauts were generated using the power of ChatGPT and DALL·E 3.'
+      "
+    ></app-card>
+    <app-card
+      [title]="'Mission Purpose'"
+      [content]="
+        'Our mission is to explore new horizons in space with our furry companions. The dogs we feature have contributed to countless discoveries in the universe.'
+      "
+    ></app-card>
 
-<app-info-box
-  icon="info"
-  text="This page provides information about us"
-></app-info-box>
+    <app-card
+      [title]="'The Team'"
+      [content]="
+        'Our team of experts, alongside the dog astronauts, are dedicated to advancing space exploration through innovative projects and fun experiments.'
+      "
+    ></app-card>
+
+    <app-card
+      [title]="'Project Origins'"
+      [content]="
+        'The Dog Astronauts project began as a creative concept that evolved into a full-fledged campaign. Thanks to the support of AI tools like ChatGPT and DALL·E 3, we\'ve brought this project to life.'
+      "
+    ></app-card>
+  </div>
+</div>

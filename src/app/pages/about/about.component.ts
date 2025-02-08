@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { InfoBoxComponent } from '../../components/info-box/info-box.component';
 import { CardComponent } from '../../components/card/card.component';
+import { MatIcon } from '@angular/material/icon';
 
 @Component({
   selector: 'app-about',
-  imports: [InfoBoxComponent, CardComponent],
+  imports: [CardComponent, MatIcon],
   templateUrl: './about.component.html',
   styleUrl: './about.component.scss',
 })
