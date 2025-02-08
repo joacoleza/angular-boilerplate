@@ -1,0 +1,10 @@
+<div class="carousel-container">
+  <img [src]="images[currentIndex]" class="carousel-image" />
+
+  <div class="carousel-control left" (click)="prevImage()">
+    <mat-icon class="arrow">chevron_left</mat-icon>
+  </div>
+  <div class="carousel-control right" (click)="nextImage()">
+    <mat-icon class="arrow">chevron_right</mat-icon>
+  </div>
+</div>

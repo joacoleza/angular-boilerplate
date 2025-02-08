@@ -1,3 +1,5 @@
+@import '../styles.scss';
+
 mat-toolbar {
   display: flex;
   justify-content: space-between;
@@ -9,9 +11,12 @@ mat-toolbar {
 }
 
 button {
-  margin-left: 16px; /* Add some space between buttons */
+  margin-left: 16px;
 }
 
-mat-toolbar img {
-  margin-right: 10px; /* Space between the logo and the title */
+mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: $toolbar-height;
 }
