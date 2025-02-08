@@ -1,59 +1,91 @@
-# AngularBoilerplate
+# 🐶 Angular Boilerplate: Dog Astronauts Edition
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
+This project is a showcase of a simple Angular boilerplate, featuring a fun theme of dog astronauts. It uses Angular CLI for the setup and includes pages like Home, Crew, and About. All images and descriptions for this theme were generated with ChatGPT and DALL·E 3.
 
-## Development server
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version `19.1.5`.
 
-To start a local development server, run:
+## 🌐 Live Demo
+
+The application is available live at [https://joacoleza.github.io/angular-boilerplate](https://joacoleza.github.io/angular-boilerplate), hosted on GitHub Pages.
+
+## 🚀 Project Overview
+
+This is a simple Angular boilerplate with a dog astronaut theme. It includes the following pages:
+
+- Home: A carousel of photos of dog astronauts.
+- Crew: A table showcasing 6 dog astronauts.
+- About: Information about the dog astronaut mission and the project itself.
+
+## 💻 Development Server
+
+To start the development server, run the following command:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+This will start the app at http://localhost:4200/. Any changes you make to the source code will automatically reload the browser.
 
-## Code scaffolding
+## 🛠 Code Scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Angular CLI provides powerful code scaffolding tools to generate components, services, directives, pipes, and more. For example, to generate a new component, you can use:
 
 ```bash
 ng generate component component-name
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+To see a full list of available schematics, run:
 
 ```bash
 ng generate --help
 ```
 
-## Building
+## 📦 Build the Project
 
-To build the project run:
+To build the project, run:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+This will compile your project and place the build artifacts in the dist/ directory. By default, the build process optimizes the app for production, ensuring better performance and smaller file sizes.
 
-## Running unit tests
+## 🧪 Running Unit Tests
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+To run unit tests using Karma, simply run:
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
+This will execute the tests and provide feedback in the terminal.
 
-For end-to-end (e2e) testing, run:
+## 🔍 Linting and Formatting
+
+To ensure code quality and consistency, this project is set up with ESLint and Prettier. You can run linting with:
 
 ```bash
-ng e2e
+npm run lint
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+To automatically fix linting and formatting issues, use:
 
-## Additional Resources
+```bash
+npm run lint:fix
+```
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🚀 Automatic Deployment
+
+This project uses GitHub Actions to automatically deploy the app to GitHub Pages on every push to the main branch. The deployment process is handled by the [.github/workflows/deploy.yml](.github/workflows/deploy.yml) action.
+
+## 🧑‍🚀 About the Dog Astronauts Theme
+
+All the images and descriptions of the dog astronauts in this project were generated with ChatGPT and DALL·E 3. This includes the creative concepts, visuals, and the humorous take on dogs in space.
+
+## 📚 Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the Angular CLI Overview and Command Reference page.
+
+## 📄 License
+
+This project is open-source and licensed under the MIT License.
